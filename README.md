@@ -37,7 +37,7 @@
 
 <br><br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mfaaizi&theme=github_dark"/>
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=mfaaizi&show_icons=true&theme=transparent&hide_border=true"/>
 
 </div>
 
@@ -83,7 +83,7 @@ Currently building production-ready AI applications while continuously exploring
 
 🚢
 
-<img src="https://user-images.githubusercontent.com/74038190/212284126-8f3d5a3d-f1de-4c28-9c48-6c8ecf5d65d1.gif" width="100%">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&colors=3B0000,5E0B15,7F1734,A61E4D,C44569"/>
 
 </div>
 # 👨‍💻 About Me
@@ -358,7 +358,7 @@ Currently designing production-grade Model Context Protocol servers capable of e
 
 ---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284103-7a2d6d73-8b69-4ef5-8b31-cc89e64dd5a3.gif" width="100%">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&colors=3B0000,5E0B15,7F1734,A61E4D,C44569"/>
 # 🛠 Tech Arsenal
 
 <div align="center">
