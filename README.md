@@ -1,7 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&customColorList=24,20,17,12,30&text=Faaizi&fontSize=82&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=AI%20Engineer%20•%20Machine%20Learning%20•%20Agentic%20AI%20•%20MCP%20Developer&descAlignY=58&descSize=22"/>
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&customColorList=0&colors=4A0404,6A040F,800F2F,A4133C,C9184A&text=Faaizi&fontSize=82&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=AI%20Engineer%20•%20Machine%20Learning%20•%20Agentic%20AI%20•%20MCP%20Developer&descAlignY=58&descSize=22"/>
 <br>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=27&pause=900&color=A78BFA&center=true&vCenter=true&width=900&lines=Building+Production-Ready+AI+Applications;Machine+Learning+Engineer;Agentic+AI+Developer;MCP+Server+Developer;LLMs+%7C+RAG+%7C+Computer+Vision;Always+Shipping+Real+Products+🚀" />
