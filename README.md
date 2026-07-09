@@ -112,6 +112,18 @@ I believe that **great AI products are a combination of intelligent models, scal
 
 ---
 
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/mfaaizi/mfaaizi/output/github-contribution-grid-snake.svg" width="100%" alt="Snake animation"/>
+
+</div>
+
+---
+
 ## 🎯 Professional Profile
 
 ```yaml
