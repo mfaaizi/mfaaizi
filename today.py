@@ -15,7 +15,7 @@ HEADERS = {
 }
 
 # GitHub Username
-USER_NAME = "mfaaizi"
+USER_NAME = os.getenv("USER_NAME", "mfaaizi")
 
 # Count GitHub GraphQL API requests
 QUERY_COUNT = {
