@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="930px" font-size="16px">
 <style>
 @font-face {
 src: local('Consolas'), local('Consolas Bold');
@@ -15,7 +15,7 @@ size-adjust: 109%;
 .cc {fill: #c2cfde;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
+<rect width="985px" height="930px" fill="#f6f8fa" rx="15"/>
 <text x="15" y="30" fill="#24292f" class="ascii">
 <tspan x="15" y="30">            ;;,, ,;,|g;~,,                      </tspan>
 <tspan x="15" y="50">         ,g@@@@@@l&amp;$$$@|,w$$@gy,            </tspan>
@@ -51,28 +51,31 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="90" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">that solve real-world problems."</tspan>
 <tspan x="390" y="110" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">I'm Faaizi, an AI Engineer passionate about building</tspan>
 <tspan x="390" y="130" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">production ready AI products that bridge research and real </tspan>
-<tspan x="390" y="150" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">applications.I enjoy combining Machine Learning, Agentic AI.</tspan>
-<tspan x="390" y="190" fill="#24292f">Contact</tspan><tspan fill="#c2cfde"> -----------------------------------------------</tspan>
-<tspan x="390" y="210" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">Email</tspan>:<tspan fill="#c2cfde"> ...................... </tspan><tspan fill="#0a3069">faaizimtiaz17@gmail.com</tspan>
-<tspan x="390" y="230" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">LinkedIn</tspan>:<tspan fill="#c2cfde"> ................... </tspan><tspan fill="#0a3069">linkedin.com/in/faaizi</tspan>
-<tspan x="390" y="250" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">GitHub</tspan>:<tspan fill="#c2cfde"> ..................... </tspan><tspan fill="#0a3069">github.com/mfaaizi</tspan>
-<tspan x="390" y="290" fill="#24292f">Details</tspan><tspan fill="#c2cfde"> -----------------------------------------------</tspan>
-<tspan x="390" y="310" fill="#c2cfde">. </tspan><tspan fill="#953800">Languages.</tspan><tspan fill="#953800">Programming</tspan>:<tspan fill="#c2cfde"> ........ </tspan><tspan fill="#0a3069">Python, JS, TS, C++, SQL</tspan>
-<tspan x="390" y="330" fill="#c2cfde">. </tspan><tspan fill="#953800">Languages.</tspan><tspan fill="#953800">Human</tspan>:<tspan fill="#c2cfde"> .............. </tspan><tspan fill="#0a3069">English, Urdu</tspan>
-<tspan x="390" y="350" fill="#c2cfde">. </tspan>
-<tspan x="390" y="370" fill="#c2cfde">. </tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">Agentic</tspan>:<tspan fill="#c2cfde"> .................. </tspan><tspan fill="#0a3069">Multi-Agent Systems, Tool Calling</tspan>
-<tspan x="390" y="390" fill="#c2cfde">. </tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">ML</tspan>:<tspan fill="#c2cfde"> ....................... </tspan><tspan fill="#0a3069">RAG, Fine-Tuning, NLP, CV</tspan>
-<tspan x="390" y="410" fill="#c2cfde">. </tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">Protocol</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan fill="#0a3069">MCP Server Development</tspan>
-<tspan x="390" y="430" fill="#c2cfde">. </tspan>
-<tspan x="390" y="450" fill="#24292f">GitHub Stats</tspan><tspan fill="#c2cfde"> ------------------------------------------</tspan>
-<tspan x="390" y="470" fill="#c2cfde">. </tspan><tspan fill="#953800">Repos</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="repo_data" fill="#0a3069">—</tspan>
-<tspan x="390" y="490" fill="#c2cfde">. </tspan><tspan fill="#953800">Commits</tspan>:<tspan fill="#c2cfde"> ............... </tspan><tspan id="commit_data" fill="#0a3069">—</tspan>
-<tspan x="390" y="510" fill="#c2cfde">. </tspan><tspan fill="#953800">Stars</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="star_data" fill="#1a7f37">—</tspan>
+<tspan x="390" y="150" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">applications.I enjoy combining Machine Learning, Agentic AI</tspan>
+<tspan x="390" y="170" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">LLMs, Speech AI and FS-Engineering into intelligent systems.</tspan>
+<tspan x="390" y="210" fill="#24292f">Contact</tspan><tspan fill="#c2cfde"> -----------------------------------------------</tspan>
+<tspan x="390" y="230" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">Email</tspan>:<tspan fill="#c2cfde"> ...................... </tspan><tspan fill="#0a3069">faaizimtiaz17@gmail.com</tspan>
+<tspan x="390" y="250" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">LinkedIn</tspan>:<tspan fill="#c2cfde"> ................... </tspan><tspan fill="#0a3069">linkedin.com/in/faaizi</tspan>
+<tspan x="390" y="270" fill="#c2cfde">. </tspan><tspan fill="#953800"></tspan><tspan fill="#953800">GitHub</tspan>:<tspan fill="#c2cfde"> ..................... </tspan><tspan fill="#0a3069">github.com/mfaaizi</tspan>
+<tspan x="390" y="310" fill="#24292f">Details</tspan><tspan fill="#c2cfde"> -----------------------------------------------</tspan>
+<tspan x="390" y="330" fill="#c2cfde">. </tspan><tspan fill="#953800">Languages.</tspan><tspan fill="#953800">Programming</tspan>:<tspan fill="#c2cfde"> ........ </tspan><tspan fill="#0a3069">Python, JS, TS, C++, SQL</tspan>
+<tspan x="390" y="350" fill="#c2cfde">. </tspan><tspan fill="#953800">Languages.</tspan><tspan fill="#953800">Human</tspan>:<tspan fill="#c2cfde"> .............. </tspan><tspan fill="#0a3069">English, Urdu</tspan>
+<tspan x="390" y="370" fill="#c2cfde">. </tspan>
+<tspan x="390" y="390" fill="#c2cfde">. </tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">Agentic</tspan>:<tspan fill="#c2cfde"> .................. </tspan><tspan fill="#0a3069">Multi-Agent Systems, Tool Calling</tspan>
+<tspan x="390" y="410" fill="#c2cfde">. </tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">ML</tspan>:<tspan fill="#c2cfde"> ....................... </tspan><tspan fill="#0a3069">RAG, Fine-Tuning, NLP, CV</tspan>
+<tspan x="390" y="430" fill="#c2cfde">. </tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">Protocol</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan fill="#0a3069">MCP Server Development</tspan>
+<tspan x="390" y="450" fill="#c2cfde">. </tspan>
+<tspan x="390" y="470" fill="#24292f">GitHub Stats</tspan><tspan fill="#c2cfde"> ------------------------------------------</tspan>
+<tspan x="390" y="490" fill="#c2cfde">. </tspan><tspan fill="#953800">Repos</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="repo_data" fill="#0a3069">—</tspan>
+<tspan x="390" y="510" fill="#c2cfde">. </tspan><tspan fill="#953800">Commits</tspan>:<tspan fill="#c2cfde"> ............... </tspan><tspan id="commit_data" fill="#0a3069">—</tspan>
+<tspan x="390" y="530" fill="#c2cfde">. </tspan><tspan fill="#953800">Stars</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="star_data" fill="#1a7f37">—</tspan>
 
-<tspan x="390" y="530" fill="#24292f">GitHub Stats</tspan><tspan fill="#c2cfde"> ------------------------------------------</tspan>
-<tspan x="390" y="550" fill="#c2cfde">. </tspan><tspan fill="#953800">Repos</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="repo_data" fill="#0a3069">—</tspan>
-<tspan x="390" y="570" fill="#c2cfde">. </tspan><tspan fill="#953800">Commits</tspan>:<tspan fill="#c2cfde"> ............... </tspan><tspan id="commit_data" fill="#0a3069">—</tspan>
-<tspan x="390" y="590" fill="#c2cfde">. </tspan><tspan fill="#953800">Stars</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="star_data" fill="#1a7f37">—</tspan>
+<tspan x="20" y="570" fill="#24292f">What I Build</tspan><tspan fill="#c2cfde"> -------------------------------------------------------------------------------------</tspan>
+<tspan x="20" y="590" fill="#c2cfde">. </tspan><tspan fill="#953800">Agentic AI</tspan>:<tspan fill="#c2cfde"> .....</tspan><tspan fill="#0a3069">AI Assistants, Tool Calling, Autonomous Agents, Multi-Agent Systems, MCP Servers</tspan>
+<tspan x="20" y="610" fill="#c2cfde">. </tspan><tspan fill="#953800">Machine Learning</tspan>:<tspan fill="#c2cfde"> ......</tspan><tspan fill="#0a3069">Deep Learning, NLP, Computer Vision, Speech Recognition, Fine Tuning</tspan>
+<tspan x="20" y="630" fill="#c2cfde">. </tspan><tspan fill="#953800">AI Products</tspan>:<tspan fill="#c2cfde"> ...........</tspan><tspan fill="#0a3069">SaaS, APIs, AI Dashboards, Automation, Full Stack Systems</tspan>
+<tspan x="20" y="650" fill="#c2cfde">. </tspan><tspan fill="#953800">Engineering</tspan>:<tspan fill="#c2cfde"> ...........</tspan><tspan fill="#0a3069">Docker, FastAPI, Flask, GitHub Actions, AWS</tspan>
+
 
 </text>
 </svg>
