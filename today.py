@@ -6,38 +6,54 @@ from lxml import etree
 import time
 import hashlib
 
-# Fine-grained personal access token with All Repositories access:
-# Account permissions: read:Followers, read:Starring, read:Watching
-# Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
-# Issues and pull requests permissions not needed at the moment, but may be used in the future
-HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
-USER_NAME = os.environ['mfaaizi'] # 'Andrew6rant'
+# ----------------------------------------------------------
+# GitHub Configuration
+# ----------------------------------------------------------
+
+HEADERS = {
+    "authorization": f"token {os.environ['ACCESS_TOKEN']}"
+}
+
+# GitHub Username
+USER_NAME = "mfaaizi"
+
+# Count GitHub GraphQL API requests
+QUERY_COUNT = {
+    "user_getter": 0,
+    "follower_getter": 0,
+    "graph_repos_stars": 0,
+    "recursive_loc": 0,
+    "graph_commits": 0,
+    "loc_query": 0,
+}
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
+    def daily_readme(birthday):
+    """
+    Returns my current age.
 
-def daily_readme(birthday):
+    Example:
+    22 years, 8 months, 19 days
     """
-    Returns the length of time since I was born
-    e.g. 'XX years, XX months, XX days'
-    """
-    diff = relativedelta.relativedelta(datetime.datetime.today(), birthday)
-    return '{} {}, {} {}, {} {}{}'.format(
-        diff.years, 'year' + format_plural(diff.years), 
-        diff.months, 'month' + format_plural(diff.months), 
-        diff.days, 'day' + format_plural(diff.days),
-        ' 🎂' if (diff.months == 0 and diff.days == 0) else '')
+
+    today = datetime.datetime.now()
+
+    diff = relativedelta.relativedelta(today, birthday)
+
+    age = (
+        f"{diff.years} year{'s' if diff.years != 1 else ''}, "
+        f"{diff.months} month{'s' if diff.months != 1 else ''}, "
+        f"{diff.days} day{'s' if diff.days != 1 else ''}"
+    )
+
+    if diff.months == 0 and diff.days == 0:
+        age += " 🎂"
+
+    return age
 
 
 def format_plural(unit):
-    """
-    Returns a properly formatted number
-    e.g.
-    'day' + format_plural(diff.days) == 5
-    >>> '5 days'
-    'day' + format_plural(diff.days) == 1
-    >>> '1 day'
-    """
-    return 's' if unit != 1 else ''
+    return "" if unit == 1 else "s"
 
 
 def simple_request(func_name, query, variables):
@@ -65,7 +81,11 @@ def graph_commits(start_date, end_date):
             }
         }
     }'''
-    variables = {'start_date': start_date,'end_date': end_date, 'login': USER_NAME}
+    variables = {
+    "start_date": start_date,
+    "end_date": end_date,
+    "login": USER_NAME,
+}
     request = simple_request(graph_commits.__name__, query, variables)
     return int(request.json()['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions'])
 
@@ -439,15 +459,23 @@ def formatter(query_type, difference, funct_return=False, whitespace=0):
 
 if __name__ == '__main__':
     """
-    Andrew Grant (Andrew6rant), 2022-2025
-    """
+Muhammad Faaiz Imtiaz
+GitHub: https://github.com/mfaaizi
+
+AI Engineer
+Machine Learning
+Agentic AI
+MCP Development
+
+2026
+"""
     print('Calculation times:')
     # define global variable for owner ID and calculate user's creation date
-    # e.g {'id': 'MDQ6VXNlcjU3MzMxMTM0'} and 2019-11-03T21:15:07Z for username 'Andrew6rant'
+    # e.g {'id': 'MDQ6VXNlcjU3MzMxMTM0'} and 2019-11-03T21:15:07Z for username 'mfaaiz'
     user_data, user_time = perf_counter(user_getter, USER_NAME)
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
-    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2002, 7, 5))
+    age_data, age_time = perf_counter(    daily_readme,    datetime.datetime(2003, 10, 21))
     formatter('age calculation', age_time)
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
