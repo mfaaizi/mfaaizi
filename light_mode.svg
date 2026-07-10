@@ -65,8 +65,14 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="410" fill="#c2cfde">. </tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">Protocol</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan fill="#0a3069">MCP Server Development</tspan>
 <tspan x="390" y="430" fill="#c2cfde">. </tspan>
 <tspan x="390" y="450" fill="#24292f">GitHub Stats</tspan><tspan fill="#c2cfde"> ------------------------------------------</tspan>
-<tspan x="390" y="470" fill="#c2cfde">. </tspan><tspan fill="#953800">Repos</tspan>:<tspan fill="#c2cfde"> .... </tspan><tspan fill="#0a3069">—</tspan><tspan fill="#c2cfde"> | </tspan><tspan fill="#953800">Stars</tspan>:<tspan fill="#c2cfde"> ........... </tspan><tspan fill="#1a7f37">0</tspan>
-<tspan x="390" y="490" fill="#c2cfde">. </tspan><tspan fill="#953800">Followers</tspan>:<tspan fill="#c2cfde"> . </tspan><tspan fill="#0a3069">—</tspan><tspan fill="#c2cfde"> | </tspan><tspan fill="#953800">Following</tspan>:<tspan fill="#c2cfde"> . </tspan><tspan fill="#0a3069">—</tspan>
+<tspan x="390" y="470" fill="#c2cfde">. </tspan><tspan fill="#953800">Repos</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="repo_data" fill="#0a3069">—</tspan>
+<tspan x="390" y="490" fill="#c2cfde">. </tspan><tspan fill="#953800">Commits</tspan>:<tspan fill="#c2cfde"> ............... </tspan><tspan id="commit_data" fill="#0a3069">—</tspan>
+<tspan x="390" y="510" fill="#c2cfde">. </tspan><tspan fill="#953800">Stars</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="star_data" fill="#1a7f37">—</tspan>
+
+<tspan x="390" y="530" fill="#24292f">GitHub Stats</tspan><tspan fill="#c2cfde"> ------------------------------------------</tspan>
+<tspan x="390" y="550" fill="#c2cfde">. </tspan><tspan fill="#953800">Repos</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="repo_data" fill="#0a3069">—</tspan>
+<tspan x="390" y="570" fill="#c2cfde">. </tspan><tspan fill="#953800">Commits</tspan>:<tspan fill="#c2cfde"> ............... </tspan><tspan id="commit_data" fill="#0a3069">—</tspan>
+<tspan x="390" y="590" fill="#c2cfde">. </tspan><tspan fill="#953800">Stars</tspan>:<tspan fill="#c2cfde"> ................. </tspan><tspan id="star_data" fill="#1a7f37">—</tspan>
 
 </text>
 </svg>
