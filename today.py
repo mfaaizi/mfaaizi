@@ -6,6 +6,8 @@ from lxml import etree
 import time
 import hashlib
 
+os.makedirs("cache", exist_ok=True)
+
 # ----------------------------------------------------------
 # GitHub Configuration
 # ----------------------------------------------------------
