@@ -67,7 +67,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="450" fill="#c2cfde">. </tspan>
 <tspan x="390" y="470" fill="#24292f">GitHub Stats</tspan><tspan fill="#c2cfde"> ------------------------------------------</tspan>
 <tspan x="390" y="490" fill="#c2cfde">. </tspan><tspan fill="#953800">Repos</tspan>:<tspan fill="#c2cfde"> ....................... </tspan><tspan id="repo_data" fill="#0a3069">26</tspan>
-<tspan x="390" y="510" fill="#c2cfde">. </tspan><tspan fill="#953800">Commits</tspan>:<tspan fill="#c2cfde"> ..................... </tspan><tspan id="commit_data" fill="#0a3069">129</tspan>
+<tspan x="390" y="510" fill="#c2cfde">. </tspan><tspan fill="#953800">Commits</tspan>:<tspan fill="#c2cfde"> ..................... </tspan><tspan id="commit_data" fill="#0a3069">133</tspan>
 <tspan x="390" y="530" fill="#c2cfde">. </tspan><tspan fill="#953800">Stars</tspan>:<tspan fill="#c2cfde"> ....................... </tspan><tspan id="star_data" fill="#1a7f37">6</tspan>
 
 <tspan x="20" y="570" fill="#24292f">What I Build</tspan><tspan fill="#c2cfde"> -------------------------------------------------------------------------------------</tspan>
