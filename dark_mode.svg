@@ -69,7 +69,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="470" fill="#F8FAFC">GitHub Stats</tspan><tspan fill="#64748B"> ------------------------------------------</tspan>
 <tspan x="390" y="490" fill="#64748B">. </tspan><tspan fill="#F59E0B">Repos</tspan>:<tspan fill="#64748B"> ................. </tspan><tspan id="repo_data" fill="#22D3EE">26</tspan>
 <tspan x="390" y="510" fill="#64748B">. </tspan><tspan fill="#F59E0B">Commits</tspan>:<tspan fill="#64748B"> ............... </tspan><tspan id="commit_data" fill="#22D3EE">133</tspan>
-<tspan x="390" y="530" fill="#64748B">. </tspan><tspan fill="#F59E0B">Stars</tspan>:<tspan fill="#64748B"> ................. </tspan><tspan id="star_data" fill="#22C55E">6</tspan>
+<tspan x="390" y="530" fill="#64748B">. </tspan><tspan fill="#F59E0B">Stars</tspan>:<tspan fill="#64748B"> ................. </tspan><tspan id="star_data" fill="#22C55E">7</tspan>
 <tspan x="20" y="570" fill="#F8FAFC">What I Build</tspan><tspan fill="#64748B"> -------------------------------------------------------------------------------------</tspan>
 <tspan x="20" y="590" fill="#64748B">. </tspan><tspan fill="#F59E0B">Agentic AI</tspan>:<tspan fill="#64748B"> ............</tspan><tspan fill="#60A5FA">AI Assistants, Autonomous Agents, Multi-Agent Systems, MCP Servers</tspan>
 <tspan x="20" y="610" fill="#64748B">. </tspan><tspan fill="#F59E0B">Machine Learning</tspan>:<tspan fill="#64748B"> ......</tspan><tspan fill="#60A5FA">Deep Learning, NLP, Computer Vision, Speech Recognition, Fine-Tuning</tspan>
