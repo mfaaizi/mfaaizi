@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<a href="mailto:faaizimtiaz17@gmail.com"><img src="https://img.shields.io/badge/Email-D93025?style=flat-square&logo=gmail&logoColor=white" /></a>
+<a href="mailto:faaizimtiaz17@gmailhshshs.com"><img src="https://img.shields.io/badge/Email-D93025?style=flat-square&logo=gmail&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/faaizi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=black" /></a>
 <a href="https://github.com/mfaaizi"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
 <a href="https://www.instagram.com/m_faaiz_i"><img src="https://img.shields.io/badge/Instagram-D93025?style=flat-square&logo=Instagram&logoColor=white" /></a>
