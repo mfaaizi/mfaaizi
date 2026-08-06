@@ -1,11 +1,3 @@
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=30&duration=3500&pause=1000&color=6C63FF&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Faaiz+Imtiaz;AI+Engineer;Machine+Learning+Engineer;Generative+AI+Developer;Python+%7C+LLMs+%7C+Computer+Vision;Always+Learning+New+Things" />
-
-</div>
-
-<br>
-
 <a href="https://github.com/mfaaizi/mfaaizi">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mfaaizi/mfaaizi/main/dark_mode.svg">
