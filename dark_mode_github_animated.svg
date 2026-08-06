@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="670px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.cc {fill: #616e7f;}
+text, tspan {white-space: pre;}
+
+@keyframes lineFade{from{opacity:0}to{opacity:1}}
+.anim-line{opacity:0;animation:lineFade .45s ease-out forwards;}
+</style>
+<rect width="985px" height="670px" fill="#161b22" rx="15"/>
+<text x="15" y="30" fill="#c9d1d9" class="ascii">
+<tspan x="15" y="30">           g@M%@%%@N%Nw,,                   </tspan>
+<tspan x="15" y="50">        ,M*|`||*%gNM=]mM%g||%N,             </tspan>
+<tspan x="15" y="70">       p!``  '! |''` '''|||jhlj%w           </tspan>
+<tspan x="15" y="90">     ,@L `    ,,        ''!`|j%M]%M         </tspan>
+<tspan x="15" y="110">    ]j'` .,wp@pw,    `.     ''''|%Wg       </tspan>
+<tspan x="15" y="130">  /{||]@@@@@@@@@pp.             |||||      </tspan>
+<tspan x="15" y="150"> '` ']@@@@@@@@@@@@@@p     , ,'''` `        </tspan>
+<tspan x="15" y="170">  , :]%%@@@@@%%%%%%k%h '*||mkr     *       </tspan>
+<tspan x="15" y="190">  '  j%M`      |jkk'   ~nrn=|i    ;`       </tspan>
+<tspan x="15" y="210">   !  jrr*^`             `"!  L'':!   </tspan>
+<tspan x="15" y="230">    j  lp;,.  ,/ @@    ,;\nmy "  ,~   </tspan>
+<tspan x="15" y="250">   i r @@@@mmHM @=@@@ `^****M*,p ;,         </tspan>
+<tspan x="15" y="270">   | ]@@@@HHH]g@M%%%%%H,jmgpmb%  j         </tspan>
+<tspan x="15" y="290">    ;;%%%%%k%@[,.n|;.;j%%k|%k%%',[         </tspan>
+<tspan x="15" y="310">     H|%%k%%%j%k||,;;j;!!'|%ij}]@          </tspan>
+<tspan x="15" y="330">     "djjmkL,"]][,,,,wwxw;|#kjk` </tspan>
+<tspan x="15" y="350">       %;%km%%%%M%M|%%jkkii|||[            </tspan>
+<tspan x="15" y="370">        kjj%%kkkl|!||||||j|||"        </tspan>
+<tspan x="15" y="390">         |jm%H@@@b%%kkmk%i|!,[             </tspan>
+<tspan x="15" y="410">         @p|j%%%%jkk|||j*'`;j[             </tspan>
+<tspan x="15" y="430">        ]@@@g|'''`'''  ` ,;j%k             </tspan>
+<tspan x="15" y="450">        @@@@@mgmp;,,,,:;jj%%k%             </tspan>
+<tspan x="15" y="470">       @@@@@@@@%%kgki!|jjjj%k%@ .          </tspan>
+<tspan x="15" y="490">. ^['' %@@@@HH%b%k{illljkjj%%%% ; `,.      </tspan>
+<tspan x="15" y="510">=[' ` . %HH%%%%%H@gkilljjj%kk%".   `'i</tspan>
+</text>
+
+<text x="390" y="30"><tspan x="390" y="30" fill="#F8FAFC" class="anim-line" style="animation-delay:0.25s">MUHAMMAD FAAIZ IMTIAZ    ~faaizi</tspan><tspan fill="#64748B" class="anim-line" style="animation-delay:0.25s"> --------------------------------------------</tspan>
+
+<tspan x="390" y="50" fill="#64748B" class="anim-line" style="animation-delay:0.47s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:0.47s">Welcome</tspan>
+<tspan x="390" y="70" fill="#64748B" class="anim-line" style="animation-delay:0.69s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:0.69s">"I don't just train models—I engineer intelligent systems</tspan>
+<tspan x="390" y="90" fill="#64748B" class="anim-line" style="animation-delay:0.91s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:0.91s">that solve real-world problems."</tspan>
+<tspan x="390" y="110" fill="#64748B" class="anim-line" style="animation-delay:1.13s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:1.13s">I'm Faaizi, an AI Engineer passionate about building</tspan>
+<tspan x="390" y="130" fill="#64748B" class="anim-line" style="animation-delay:1.35s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:1.35s">production-ready AI products that bridge research and</tspan>
+<tspan x="390" y="150" fill="#64748B" class="anim-line" style="animation-delay:1.57s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:1.57s">real applications. I enjoy combining Machine Learning,</tspan>
+<tspan x="390" y="170" fill="#64748B" class="anim-line" style="animation-delay:1.79s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:1.79s">Agentic AI, LLMs, Speech AI and Full-Stack Engineering.</tspan>
+
+<tspan x="390" y="210" fill="#F8FAFC" class="anim-line" style="animation-delay:2.01s">Contact</tspan><tspan fill="#64748B" class="anim-line" style="animation-delay:2.01s"> -----------------------------------------------</tspan>
+<tspan x="390" y="230" fill="#64748B" class="anim-line" style="animation-delay:2.23s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:2.23s">Email</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:2.23s"> ..................</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:2.23s">faaizimtiaz17@gmail.com</tspan>
+<tspan x="390" y="250" fill="#64748B" class="anim-line" style="animation-delay:2.45s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:2.45s">LinkedIn</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:2.45s"> ...............</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:2.45s">linkedin.com/in/faaizi</tspan>
+<tspan x="390" y="270" fill="#64748B" class="anim-line" style="animation-delay:2.67s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:2.67s">GitHub</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:2.67s"> .................</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:2.67s">github.com/mfaaizi</tspan>
+<tspan x="390" y="310" fill="#F8FAFC" class="anim-line" style="animation-delay:2.89s">Details</tspan><tspan fill="#64748B" class="anim-line" style="animation-delay:2.89s"> -----------------------------------------------</tspan>
+<tspan x="390" y="330" fill="#64748B" class="anim-line" style="animation-delay:3.11s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:3.11s">Languages.</tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:3.11s">Programming</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:3.11s"> ..</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:3.11s">Python, JavaScript, TypeScript, C++, SQL</tspan>
+<tspan x="390" y="350" fill="#64748B" class="anim-line" style="animation-delay:3.33s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:3.33s">Languages.</tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:3.33s">Human</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:3.33s"> ........</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:3.33s">English, Urdu</tspan>
+<tspan x="390" y="370" fill="#64748B" class="anim-line" style="animation-delay:3.55s">.</tspan>
+<tspan x="390" y="390" fill="#64748B" class="anim-line" style="animation-delay:3.77s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:3.77s">Focus.</tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:3.77s">Agentic</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:3.77s"> ..........</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:3.77s">Multi-Agent Systems, Tool Calling</tspan>
+<tspan x="390" y="410" fill="#64748B" class="anim-line" style="animation-delay:3.99s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:3.99s">Focus.</tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:3.99s">MachineLearning</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:3.99s"> ..</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:3.99s">RAG, Fine-Tuning, NLP, C Vission</tspan>
+<tspan x="390" y="430" fill="#64748B" class="anim-line" style="animation-delay:4.21s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:4.21s">Focus.</tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:4.21s">Protocol</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:4.21s"> .........</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:4.21s">MCP Server Development</tspan>
+<tspan x="390" y="450" fill="#64748B" class="anim-line" style="animation-delay:4.43s">.</tspan>
+<tspan x="390" y="470" fill="#F8FAFC" class="anim-line" style="animation-delay:4.65s">GitHub Stats</tspan><tspan fill="#64748B" class="anim-line" style="animation-delay:4.65s"> ------------------------------------------</tspan>
+<tspan x="390" y="490" fill="#64748B" class="anim-line" style="animation-delay:4.87s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:4.87s">Repos</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:4.87s"> ................. </tspan><tspan id="repo_data" fill="#22D3EE" class="anim-line" style="animation-delay:4.87s">27</tspan>
+<tspan x="390" y="510" fill="#64748B" class="anim-line" style="animation-delay:5.09s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:5.09s">Commits</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:5.09s"> ............... </tspan><tspan id="commit_data" fill="#22D3EE" class="anim-line" style="animation-delay:5.09s">224</tspan>
+<tspan x="390" y="530" fill="#64748B" class="anim-line" style="animation-delay:5.31s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:5.31s">Stars</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:5.31s"> ................. </tspan><tspan id="star_data" fill="#22C55E" class="anim-line" style="animation-delay:5.31s">9</tspan>
+<tspan x="20" y="570" fill="#F8FAFC" class="anim-line" style="animation-delay:5.53s">What I Build</tspan><tspan fill="#64748B" class="anim-line" style="animation-delay:5.53s"> -------------------------------------------------------------------------------------</tspan>
+<tspan x="20" y="590" fill="#64748B" class="anim-line" style="animation-delay:5.75s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:5.75s">Agentic AI</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:5.75s"> ............</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:5.75s">AI Assistants, Autonomous Agents, Multi-Agent Systems, MCP Servers</tspan>
+<tspan x="20" y="610" fill="#64748B" class="anim-line" style="animation-delay:5.97s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:5.97s">Machine Learning</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:5.97s"> ......</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:5.97s">Deep Learning, NLP, Computer Vision, Speech Recognition, Fine-Tuning</tspan>
+<tspan x="20" y="630" fill="#64748B" class="anim-line" style="animation-delay:6.19s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:6.19s">AI Products</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:6.19s"> ...........</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:6.19s">SaaS, APIs, AI Dashboards, Automation, Full-Stack Systems</tspan>
+<tspan x="20" y="650" fill="#64748B" class="anim-line" style="animation-delay:6.41s">. </tspan><tspan fill="#F59E0B" class="anim-line" style="animation-delay:6.41s">Engineering</tspan>:<tspan fill="#64748B" class="anim-line" style="animation-delay:6.41s"> ...........</tspan><tspan fill="#60A5FA" class="anim-line" style="animation-delay:6.41s">Docker, FastAPI, Flask, GitHub Actions, AWS</tspan>
+</text>
+</svg>
