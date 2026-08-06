@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="670px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #953800;}
+.value {fill: #0a3069;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #c2cfde;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="670px" fill="#f6f8fa" rx="15"/>
+<text x="15" y="30" fill="#24292f" class="ascii">
+<tspan x="15" y="30">            ;;,, ,;,|g;~,,                      </tspan>
+<tspan x="15" y="50">         ,g@@@@@@l&amp;$$$@|,w$$@gy,            </tspan>
+<tspan x="15" y="70">        $@@@@@@@@@@$@@@@@@@@$$MW$k              </tspan>
+<tspan x="15" y="90">       $$@@@@@@B@@@@@@@@@@@@@$@$$g,$            </tspan>
+<tspan x="15" y="110">     g@llM**'''||%@@@@@$@@$@@@@@@@L$&amp;      </tspan>
+<tspan x="15" y="130">   @$&amp;$F         ''T%M$@@@@@@@@@@@$@$@     </tspan>
+<tspan x="15" y="150">  @@@@F              ']@@@@@@$$@$@@@@          </tspan>
+<tspan x="15" y="170">  @@@$L               |$@@@$$l$@@@@$F          </tspan>
+<tspan x="15" y="190"> ]@@@@L ,@@$@@@@L  ,l@$$$$$$$$$@@@@@           </tspan>
+<tspan x="15" y="210">  %$@@@$}',,gg@||@@@@l@g@ggg|l$&amp;$@@$       </tspan>
+<tspan x="15" y="230">  ]@@@@@'"*TTTTT'F  ]Wl|||''"'$]@@@@ </tspan>
+<tspan x="15" y="250">   $$@M$       ,#    ]gg,,,,,.r'$@$            </tspan>
+<tspan x="15" y="270">    &amp;$L        ' ,, ,,,'T''`    $$L        </tspan>
+<tspan x="15" y="290">     lL         T"||||!   `-    l"'  </tspan>
+<tspan x="15" y="310">     ' |        '||l||||"|L|  L `         </tspan>
+<tspan x="15" y="330">      ''   '|L++=****=*""*"||` L|</tspan>
+<tspan x="15" y="350">        |           ,,      |||F               </tspan>
+<tspan x="15" y="370">        '         |||||||| ||l$                </tspan>
+<tspan x="15" y="390">          !                |l&amp;L            </tspan>
+<tspan x="15" y="410">           '!,       |||,||@M|L                </tspan>
+<tspan x="15" y="430">            ||l&amp;$@$$@$$$@$MT|||            </tspan>
+<tspan x="15" y="450">         |    |||lll$$llll|||||L               </tspan>
+<tspan x="15" y="470">    ,;y@        ||||||l||@|||||l               </tspan>
+<tspan x="15" y="490">,g$@$$$@         |||||||||||||||| $g,          </tspan>
+<tspan x="15" y="510">$$$$$$$$@    |    |||||||||||||| |$$@g         </tspan>
+</text>
+<text x="390" y="30">
+
+<tspan x="390" y="30" fill="#24292f" opacity="0">MUHAMMAD FAAIZ IMTIAZ   ~faaizi<animate attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#c2cfde"> --------------------------------------------</tspan>
+<tspan x="390" y="50" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">Welcome</tspan>
+<tspan x="390" y="70" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">"I don't just train models I engineer intelligent systems</tspan>
+<tspan x="390" y="90" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">that solve real-world problems."</tspan>
+<tspan x="390" y="110" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">I'm Faaizi, an AI Engineer passionate about building</tspan>
+<tspan x="390" y="130" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">production ready AI products that bridge research and real </tspan>
+<tspan x="390" y="150" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">applications.I enjoy combining Machine Learning, Agentic AI</tspan>
+<tspan x="390" y="170" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">LLMs, Speech AI and FS-Engineering into intelligent systems.</tspan>
+<tspan x="390" y="210" fill="#24292f" opacity="0">Contact<animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#c2cfde"> -----------------------------------------------</tspan>
+<tspan x="390" y="230" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">Email</tspan>:<tspan fill="#c2cfde"> ...................... </tspan><tspan fill="#0a3069">faaizimtiaz17@gmail.com</tspan>
+<tspan x="390" y="250" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">LinkedIn</tspan>:<tspan fill="#c2cfde"> ................... </tspan><tspan fill="#0a3069">linkedin.com/in/faaizi</tspan>
+<tspan x="390" y="270" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800"/><tspan fill="#953800">GitHub</tspan>:<tspan fill="#c2cfde"> ..................... </tspan><tspan fill="#0a3069">github.com/mfaaizi</tspan>
+<tspan x="390" y="310" fill="#24292f" opacity="0">Details<animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#c2cfde"> -----------------------------------------------</tspan>
+<tspan x="390" y="330" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="3.2s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Languages.</tspan><tspan fill="#953800">Programming</tspan>:<tspan fill="#c2cfde"> .......</tspan><tspan fill="#0a3069">Python, JS, TS, C++, SQL</tspan>
+<tspan x="390" y="350" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Languages.</tspan><tspan fill="#953800">Human</tspan>:<tspan fill="#c2cfde"> .............</tspan><tspan fill="#0a3069">English, Urdu</tspan>
+<tspan x="390" y="370" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.25s" fill="freeze"/></tspan>
+<tspan x="390" y="390" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="4.0s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">Agentic</tspan>:<tspan fill="#c2cfde"> ...............</tspan><tspan fill="#0a3069">Multi-Agent Systems, Tool Calling</tspan>
+<tspan x="390" y="410" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">ML</tspan>:<tspan fill="#c2cfde"> ....................</tspan><tspan fill="#0a3069">RAG, Fine-Tuning, NLP, CV</tspan>
+<tspan x="390" y="430" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Focus.</tspan><tspan fill="#953800">Protocol</tspan>:<tspan fill="#c2cfde"> ..............</tspan><tspan fill="#0a3069">MCP Server Development</tspan>
+<tspan x="390" y="450" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.25s" fill="freeze"/></tspan>
+<tspan x="390" y="470" fill="#24292f" opacity="0">GitHub Stats<animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#c2cfde"> ------------------------------------------</tspan>
+<tspan x="390" y="490" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="5.2s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Repos</tspan>:<tspan fill="#c2cfde"> ....................... </tspan><tspan id="repo_data" fill="#0a3069">27</tspan>
+<tspan x="390" y="510" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Commits</tspan>:<tspan fill="#c2cfde"> ..................... </tspan><tspan id="commit_data" fill="#0a3069">224</tspan>
+<tspan x="390" y="530" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Stars</tspan>:<tspan fill="#c2cfde"> ....................... </tspan><tspan id="star_data" fill="#1a7f37">9</tspan>
+
+<tspan x="20" y="570" fill="#24292f" opacity="0">What I Build<animate attributeName="opacity" from="0" to="1" begin="6.0s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#c2cfde"> -------------------------------------------------------------------------------------</tspan>
+<tspan x="20" y="590" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="6.2s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Agentic AI</tspan>:<tspan fill="#c2cfde"> ............</tspan><tspan fill="#0a3069">AI Assistants, Autonomous Agents, Multi-Agent Systems, MCP Servers</tspan>
+<tspan x="20" y="610" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Machine Learning</tspan>:<tspan fill="#c2cfde"> ......</tspan><tspan fill="#0a3069">Deep Learning, NLP, Computer Vision, Speech Recognition, Fine Tuning</tspan>
+<tspan x="20" y="630" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="6.8s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">AI Products</tspan>:<tspan fill="#c2cfde"> ...........</tspan><tspan fill="#0a3069">SaaS, APIs, AI Dashboards, Automation, Full Stack Systems</tspan>
+<tspan x="20" y="650" fill="#c2cfde" opacity="0">. <animate attributeName="opacity" from="0" to="1" begin="7.0s" dur="0.25s" fill="freeze"/></tspan><tspan fill="#953800">Engineering</tspan>:<tspan fill="#c2cfde"> ...........</tspan><tspan fill="#0a3069">Docker, FastAPI, Flask, GitHub Actions, AWS</tspan>
+
+
+</text>
+</svg>
