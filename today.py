@@ -5,6 +5,8 @@ import os
 from lxml import etree
 import time
 import hashlib
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 os.makedirs("cache", exist_ok=True)
 
@@ -28,7 +30,22 @@ QUERY_COUNT = {
     "graph_commits": 0,
     "loc_query": 0,
 }
-QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+
+retry_strategy = Retry(
+    total=6,
+    connect=6,
+    read=6,
+    status=6,
+    backoff_factor=2,
+    status_forcelist=(429, 500, 502, 503, 504),
+    allowed_methods=frozenset(["POST"]),
+    respect_retry_after_header=True,
+)
+
+graph_session = requests.Session()
+graph_session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
+graph_session.mount("http://", HTTPAdapter(max_retries=retry_strategy))
+
 
 def daily_readme(birthday):
     """
@@ -62,9 +79,25 @@ def simple_request(func_name, query, variables):
     """
     Returns a request, or raises an Exception if the response does not succeed.
     """
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
+    try:
+        request = graph_session.post(
+            'https://api.github.com/graphql',
+            json={'query': query, 'variables': variables},
+            headers=HEADERS,
+            timeout=(10, 120)
+        )
+    except requests.RequestException as error:
+        raise Exception(f"{func_name} failed with a network error: {error}. Query count: {QUERY_COUNT}") from error
+
     if request.status_code == 200:
+        payload = request.json()
+        if payload.get('errors'):
+            raise Exception(f"{func_name} returned GraphQL errors: {payload['errors']}")
         return request
+
+    if request.status_code == 403:
+        raise Exception('Too many requests in a short amount of time!\nYou\'ve hit the non-documented anti-abuse limit!')
+
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
 
 
@@ -166,12 +199,35 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
         }
     }'''
     variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS) # I cannot use simple_request(), because I want to save the file before raising Exception
+    try:
+        request = graph_session.post(
+            'https://api.github.com/graphql',
+            json={'query': query, 'variables': variables},
+            headers=HEADERS,
+            timeout=(10, 120)
+        )
+    except requests.RequestException as error:
+        force_close_file(data, cache_comment)
+        raise Exception(f"recursive_loc() network failure: {error}") from error
+
     if request.status_code == 200:
-        if request.json()['data']['repository']['defaultBranchRef'] != None: # Only count commits if repo isn't empty
-            return loc_counter_one_repo(owner, repo_name, data, cache_comment, request.json()['data']['repository']['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)
-        else: return 0
-    force_close_file(data, cache_comment) # saves what is currently in the file before this program crashes
+        payload = request.json()
+        if payload.get('errors'):
+            raise Exception(f"recursive_loc() returned GraphQL errors: {payload['errors']}")
+        if payload['data']['repository']['defaultBranchRef'] is not None:  # Only count commits if repo isn't empty
+            return loc_counter_one_repo(
+                owner,
+                repo_name,
+                data,
+                cache_comment,
+                payload['data']['repository']['defaultBranchRef']['target']['history'],
+                addition_total,
+                deletion_total,
+                my_commits,
+            )
+        return 0
+
+    force_close_file(data, cache_comment)  # saves what is currently in the file before this program crashes
     if request.status_code == 403:
         raise Exception('Too many requests in a short amount of time!\nYou\'ve hit the non-documented anti-abuse limit!')
     raise Exception('recursive_loc() has failed with a', request.status_code, request.text, QUERY_COUNT)
@@ -190,7 +246,7 @@ def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, additio
 
     if history['edges'] == [] or not history['pageInfo']['hasNextPage']:
         return addition_total, deletion_total, my_commits
-    else: return recursive_loc(owner, repo_name, data, cache_comment, addition_total, deletion_total, my_commits, history['pageInfo']['endCursor'])
+    return recursive_loc(owner, repo_name, data, cache_comment, addition_total, deletion_total, my_commits, history['pageInfo']['endCursor'])
 
 
 def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None, edges=[]):
@@ -270,7 +326,7 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
                     # if commit count has changed, update loc for that repo
                     owner, repo_name = edges[index]['node']['nameWithOwner'].split('/')
                     loc = recursive_loc(owner, repo_name, data, cache_comment)
-                    data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
+                    data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + ' \n'
             except TypeError: # If the repo is empty
                 data[index] = repo_hash + ' 0 0 0 0\n'
     with open(filename, 'w') as f:
@@ -306,7 +362,7 @@ def add_archive():
     with open('cache/repository_archive.txt', 'r') as f:
         data = f.readlines()
     old_data = data
-    data = data[7:len(data)-3] # remove the comment block    
+    data = data[7:len(data)-3] # remove the comment block
     added_loc, deleted_loc, added_commits = 0, 0, 0
     contributed_repos = len(data)
     for line in data:
@@ -316,6 +372,7 @@ def add_archive():
         if (my_commits.isdigit()): added_commits += int(my_commits)
     added_commits += int(old_data[-1].split()[4][:-1])
     return [added_loc, deleted_loc, added_loc - deleted_loc, added_commits, contributed_repos]
+
 
 def force_close_file(data, cache_comment):
     """
@@ -411,6 +468,7 @@ def user_getter(username):
     variables = {'login': username}
     request = simple_request(user_getter.__name__, query, variables)
     return {'id': request.json()['data']['user']['id']}, request.json()['data']['user']['createdAt']
+
 
 def follower_getter(username):
     """
