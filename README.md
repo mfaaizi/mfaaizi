@@ -15,6 +15,12 @@
 
 </div>
 
+<div align="center">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=mfaaizi&label=PROFILE+VIEWS&color=brightgreen&style=flat-square" />
+  <img alt="Total public repositories" src="https://img.shields.io/badge/Repositories-31-1F6FEB?style=flat-square&logo=github" />
+  <img alt="Total stars" src="https://img.shields.io/badge/Stars-10-FFD700?style=flat-square&logo=github" />
+</div>
+
 <br/>
 <div align="center">
 <picture>
