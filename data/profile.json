@@ -1,0 +1,59 @@
+{
+  "profile": {
+    "name": "Faaizi",
+    "handle": "mfaaizi",
+    "role": "AI / ML Engineer",
+    "tagline": "I build agentic systems, RAG pipelines and voice AI, and ship them as full-stack products.",
+    "chips": ["BS Artificial Intelligence '26", "Pakistan", "Open to full-time roles"]
+  },
+  "stats": [
+    {"label": "BUILD", "value": "Agentic systems", "sub": "FastMCP · n8n · multi-agent"},
+    {"label": "SPEAK", "value": "Voice AI", "sub": "STT · LLM · TTS · Urdu-first"},
+    {"label": "GROUND", "value": "RAG pipelines", "sub": "retrieval · evals · latency"}
+  ],
+  "section_title": "What I'm building",
+  "projects": [
+    {
+      "name": "MeetingProxy",
+      "desc": "Autonomous AI meeting avatar that joins calls and speaks for you.",
+      "tags": ["Flask", "React", "Whisper", "ElevenLabs"],
+      "status": "shipped",
+      "repo": ""
+    },
+    {
+      "name": "job-agent-mcp",
+      "desc": "Multi-agent job hunter: 15 MCP tools across five agents, running on local Ollama.",
+      "tags": ["FastMCP", "Ollama", "Playwright"],
+      "status": "shipped",
+      "repo": ""
+    },
+    {
+      "name": "Voice Agent + RAG",
+      "desc": "RAG-grounded voice agent on a custom STT/LLM/TTS stack, with a latency benchmark harness.",
+      "tags": ["STT", "Groq", "RAG", "TTS"],
+      "status": "building",
+      "repo": ""
+    },
+    {
+      "name": "n8n Sales Automation",
+      "desc": "Omnichannel AI intake: voice, WhatsApp and Instagram leads turned into booked calls.",
+      "tags": ["n8n", "Retell AI", "WhatsApp", "Cal.com"],
+      "status": "shipped",
+      "repo": ""
+    },
+    {
+      "name": "Hospital CRM",
+      "desc": "Urdu-first hospital CRM where the chatbot and voice agent share one patient memory.",
+      "tags": ["MERN", "Voice", "WhatsApp"],
+      "status": "building",
+      "repo": ""
+    },
+    {
+      "name": "Traffic Violation System",
+      "desc": "Detects vehicles and plates on Pakistani roads, then looks up owners and unpaid challans.",
+      "tags": ["YOLOv8", "ANPR", "OCR"],
+      "status": "building",
+      "repo": ""
+    }
+  ]
+}
