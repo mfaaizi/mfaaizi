@@ -53,12 +53,12 @@
 
 <!-- PROJECTS:START -->
 <p align="center">
-<img src="cards/project-meetingproxy.svg" width="270" alt="MeetingProxy">
-<img src="cards/project-job-agent-mcp.svg" width="270" alt="job-agent-mcp">
+<a href="https://github.com/mfaaizi/Meeting_proxy"><img src="cards/project-meetingproxy.svg" width="270" alt="MeetingProxy"></a>
+<a href="https://github.com/mfaaizi/Job-Hunt-MCP-Agent-Server"><img src="cards/project-job-agent-mcp.svg" width="270" alt="job-agent-mcp"></a>
 <img src="cards/project-voice-agent-rag.svg" width="270" alt="Voice Agent + RAG">
 </p>
 <p align="center">
-<img src="cards/project-n8n-sales-automation.svg" width="270" alt="n8n Sales Automation">
+<a href="https://github.com/mfaaizi/VoicePilot-AI"><img src="cards/project-n8n-sales-automation.svg" width="270" alt="n8n Sales Automation"></a>
 <img src="cards/project-hospital-crm.svg" width="270" alt="Hospital CRM">
 <img src="cards/project-traffic-violation-system.svg" width="270" alt="Traffic Violation System">
 </p>
