@@ -18,14 +18,14 @@
       "desc": "Autonomous AI meeting avatar that joins calls and speaks for you.",
       "tags": ["Flask", "React", "Whisper", "ElevenLabs"],
       "status": "shipped",
-      "repo": ""
+      "repo": "Meeting_proxy"
     },
     {
       "name": "job-agent-mcp",
       "desc": "Multi-agent job hunter: 15 MCP tools across five agents, running on local Ollama.",
       "tags": ["FastMCP", "Ollama", "Playwright"],
       "status": "shipped",
-      "repo": ""
+      "repo": "Job-Hunt-MCP-Agent-Server"
     },
     {
       "name": "Voice Agent + RAG",
@@ -39,7 +39,7 @@
       "desc": "Omnichannel AI intake: voice, WhatsApp and Instagram leads turned into booked calls.",
       "tags": ["n8n", "Retell AI", "WhatsApp", "Cal.com"],
       "status": "shipped",
-      "repo": ""
+      "repo": "VoicePilot-AI"
     },
     {
       "name": "Hospital CRM",
